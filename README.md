@@ -1,3 +1,3 @@
 <br> NODE.js
-,br>PSQL
+<br>PSQL
 <br>DOCKER
