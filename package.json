@@ -1,0 +1,30 @@
+{
+  "name": "web_app_nodejs_docker",
+  "version": "1.0.0",
+  "description": "<br> NODE.js <br>PSQL <br>DOCKER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workTask/web_app_nodejs_docker.git"
+  },
+  "author": "Frantsuh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/workTask/web_app_nodejs_docker/issues"
+  },
+  "homepage": "https://github.com/workTask/web_app_nodejs_docker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "pg": "^8.3.0"
+  }
+}
